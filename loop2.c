@@ -107,5 +107,6 @@ int summarize(int a , int b) {
 
 	}
 	printf("the total number between %d and %d is :%d \n",a,b, sum);
+	return sum;
 	
 }
