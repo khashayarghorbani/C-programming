@@ -1,0 +1,116 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h> //this is the library for using boolean true or false
+#include <math.h> // for using math calculations 
+void rain();
+void Menu();
+int main() {
+
+	boolean();
+	
+	system("pause");
+	return 0;
+
+
+}
+
+
+
+
+
+void rain() {
+	int input;
+	
+		input = 0;
+	printf("is it raining outside?\n");
+	printf("1-yes\n");
+	printf("2-no\n");
+	printf("3-I'm in Vancouver.\n");
+	puts("0-Exit");
+	scanf("%d", &input);
+	
+		if (input == 1)
+		{
+			printf("take your umbrella.\n");
+			rain();
+		}
+		else if (input == 2)
+		{
+			printf("don't take your umbrella.\n");
+			rain();
+		}
+		else if (input == 3)
+		{
+			printf("Always take your umbrella.\n");
+			rain();
+		}
+		else if (input == 0)
+		{
+			return 0;
+
+		}else
+		{
+			puts("please insert a valid option.\n");
+			rain();
+		}	
+}
+
+void Menu() {
+	int option = 0;
+	do
+	{
+		puts("MENU ITEMS\n");
+		puts("-------------------------\n");
+		puts("1- option 1\n");
+		puts("2- option 2\n");
+		puts("3- option 3\n");
+		puts("4- option 4\n");
+		puts("0- exit\n");
+		puts("-------------------------\n");
+		scanf("%d", &option);
+		switch (option)
+		{
+		case 1:
+			puts("you have chosen option 1. \n");
+			
+			break;
+		case 2:
+			puts("you have chosen option 2. \n");
+			
+			break;
+		case 3:
+			puts("you have chosen option 3. \n");
+		
+			break;
+		case 4:
+			puts("you have chosen option 4. \n");
+			
+			break;
+		case 0:
+			puts("Goodbye. \n");
+			exit(0);
+			break;
+		default:
+			puts("Invalid selection!Please try again.\n");
+			break;
+		}
+	} while (option =!0);
+
+	
+
+}
+int boolean() {
+	_Bool standardBool = 1; //C standard includes the datatype _Bool with the values 0 and 1 to represent true and false
+
+	printf("This is the standard Bool defined as true %d\n", standardBool);
+
+
+
+
+	bool libraryBool = false; // At preprocessor time, bool, true and false are replaced with _Bool, 1 and 0
+
+	printf("This is the library Bool defined as false %d\n", libraryBool);//The output will be 0 and 1 as well.
+
+	system("pause");
+	return 0;
+}
