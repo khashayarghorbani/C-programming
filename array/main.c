@@ -13,5 +13,4 @@ int main() {
 	arrays(myArray2, array2size);
 	system("pause");
 	return NULL;
-
 }
