@@ -1,0 +1,4 @@
+﻿  function.c
+c:\users\khashayar.ghorbani\source\repos\array\array\function.c(8): warning C4018: '<': signed/unsigned mismatch
+c:\users\khashayar.ghorbani\source\repos\array\array\function.c(10): warning C4778: 'printf' : unterminated format string '%t'
+  array.vcxproj -> C:\Users\khashayar.ghorbani\source\repos\array\Debug\array.exe
