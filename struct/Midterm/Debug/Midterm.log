@@ -1,0 +1,3 @@
+﻿  function.c
+c:\users\khashayar.ghorbani\desktop\midterm\midterm\function.c(156): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Midterm.vcxproj -> C:\Users\khashayar.ghorbani\Desktop\Midterm\Debug\Midterm.exe
