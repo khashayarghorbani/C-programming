@@ -1,0 +1,4 @@
+﻿  function.c
+c:\users\khashayar.ghorbani\desktop\linkedlist\linkedlist\function.c(80): warning C4013: 'malloc' undefined; assuming extern returning int
+c:\users\khashayar.ghorbani\desktop\linkedlist\linkedlist\function.c(231): warning C4013: 'free' undefined; assuming extern returning int
+  linkedList.vcxproj -> C:\Users\khashayar.ghorbani\Desktop\linkedList\Debug\linkedList.exe
